@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ /* navigation*/
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image:url(Image/Header_01.png);
+  min-height:300px;
+  min-width:300px;
+
+  /* Center and scale the image nicely */
+  background-position:r;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container-nav {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  padding-left:380px;
+  padding-top: 170px;
+}
+
+
+/* The navbar */
+.topnav {
+  overflow:auto;
+  background-color:#A00;
+   
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color:#FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-family:"Champagne & Limousines";
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#FFFBF0;
+  color:#72004F;
+}
+/*active colour*/
+.active {
+  background-color:grey;
+  
+}
+</style>
+
+/*Content*/
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width:33.33%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  height:900px;
+}
+
+.button {
+  background-color: #A00;
+  border:thick;
+  color: white;
+  padding: 16px 72px;
+  text-align: center;
+  font-size: 50px;
+  font-family:BigNoodleTitling;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+</style>
+
+</style>
+
+
+/*Footer*/
+* {
+  box-sizing: border-box;
+ 
+}
+
+.row3 {
+  display: flex;
+}
+
+.column3 {
+	flex:100%;
+	width:auto;
+	padding:0px;
+	alignment-adjust:middle;
+}
+
+.column4 {
+	flex:100%;
+	width:auto;
+	padding:0px;
+	alignment-adjust:middle;
+	column-fill:balance;
+	
+	
+    
+}
+
+.footer {
+   position:inherit;
+   left: 0;
+   bottom: 0;
+   height: 150px;
+   width: 100%;
+   background-color:#bbb;
+   color:#000;
+   font-stretch:expanded;
+   
+   float: left;
+  width: 100%;
+  padding: 0px;
+  
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.small {
+  line-height: 1.3;
+}
+
+.center {
+  display: block;
+  margin-left: 28px;
+  margin-right: auto;
+  width: 50%;
+}
